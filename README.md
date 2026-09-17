@@ -23,6 +23,13 @@ Estou em constante evolução, atualmente aprofundando meus conhecimentos em des
             src="https://custom-icon-badges.demolab.com/badge/Instagram-E4405F?style=for-the-badge&logo=instagram-white&logoColor=white"
         />
     </a>
+    <a href="https://youtube.com/Theus_Viana" target="_blank">
+        <img
+            alt="YouTube"
+            title="Acesse meu canal no YouTube"
+            src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
+        />
+    </a>
     <a href="https://github.com/MatheusdeCastroViana?tab=followers">
         <img 
             alt="Seguidores" 
@@ -82,21 +89,17 @@ Estou em constante evolução, atualmente aprofundando meus conhecimentos em des
 
 ### 📊 Estatísticas
 
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="200" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=MatheusdeCastroViana&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
-
-  <img 
-    align="left" 
-    alt="Top Langs" 
-    height="200" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusdeCastroViana&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=8" 
-  />
+<p align="left">
+    <img
+        alt="Estatísticas do GitHub"
+        height="195"
+        src="./profile/stats.svg"
+    />
+    <img
+        alt="Linguagens mais utilizadas"
+        height="195"
+        src="./profile/top-langs.svg"
+    />
 </p>
 
 <br clear="left"/>
