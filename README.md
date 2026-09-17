@@ -23,7 +23,7 @@ Estou em constante evolução, atualmente aprofundando meus conhecimentos em des
             src="https://custom-icon-badges.demolab.com/badge/Instagram-E4405F?style=for-the-badge&logo=instagram-white&logoColor=white"
         />
     </a>
-    <a href="https://youtube.com/Theus_Viana" target="_blank">
+    <a href="https://www.youtube.com/@Theus_Viana" target="_blank">
         <img
             alt="YouTube"
             title="Acesse meu canal no YouTube"
