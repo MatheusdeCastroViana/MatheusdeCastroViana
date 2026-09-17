@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: atualizar-estatisticas-perfil
+  cancel-in-progress: true
+
 jobs:
   generate-stats:
     runs-on: ubuntu-latest
@@ -17,28 +21,35 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v6
 
-      - name: Gerar estatísticas gerais
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Configurar Python
+        uses: actions/setup-python@v6
         with:
-          card: stats
-          options: username=MatheusdeCastroViana&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br&card_width=495
-          path: profile/stats.svg
-          token: ${{ secrets.STATS_TOKEN }}
-          fail_on_error: true
+          python-version: "3.13"
 
-      - name: Gerar linguagens mais utilizadas
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=MatheusdeCastroViana&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=8&card_width=495&size_weight=0.5&count_weight=0.5
-          path: profile/top-langs.svg
-          token: ${{ secrets.STATS_TOKEN }}
-          fail_on_error: true
+      - name: Gerar card de estatísticas
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          ORG_STATS_TOKEN: ${{ secrets.ORG_STATS_TOKEN }}
+
+        run: |
+          python scripts/generate_github_card.py
+
+      - name: Remover cards antigos
+        run: |
+          rm -f profile/stats.svg
+          rm -f profile/top-langs.svg
 
       - name: Salvar estatísticas no repositório
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Atualiza estatísticas do perfil" || exit 0
+
+          git add -A profile/
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nas estatísticas."
+            exit 0
+          fi
+
+          git commit -m "Atualiza estatísticas do perfil"
           git push
