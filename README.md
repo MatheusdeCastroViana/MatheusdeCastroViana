@@ -97,7 +97,7 @@ Estou em constante evolução, atualmente aprofundando meus conhecimentos em des
     />
     <img
         alt="Tecnologias"
-        width="49%"
+        width="44%"
         src="./profile/top-langs.svg"
     />
 </p>
