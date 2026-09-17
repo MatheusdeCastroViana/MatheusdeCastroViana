@@ -88,5 +88,17 @@ Estou em constante evolução, atualmente aprofundando meus conhecimentos em des
 <br/>
 
 
+### 📊 Estatísticas
+
+<p align="center">
+    <img
+        alt="Estatísticas GitHub de Matheus Viana"
+        width="100%"
+        src="./profile/github-stats.svg"
+    />
+</p>
+
+<br clear="left"/>
+
 ---
 Estou sempre aberto a novas conexões, projetos de inovação e oportunidades na área de tecnologia e desenvolvimento de software. Sinta-se à vontade para entrar em contato!
