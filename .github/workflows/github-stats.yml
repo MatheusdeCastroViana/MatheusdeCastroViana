@@ -21,17 +21,19 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=MatheusdeCastroViana&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br
+          options: username=MatheusdeCastroViana&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br&card_width=495
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
+          fail_on_error: true
 
       - name: Gerar linguagens mais utilizadas
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=MatheusdeCastroViana&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=8
+          options: username=MatheusdeCastroViana&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=8&card_width=495&size_weight=0.5&count_weight=0.5
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
+          fail_on_error: true
 
       - name: Salvar estatísticas no repositório
         run: |
