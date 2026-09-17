@@ -1,0 +1,181 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="{CARD_WIDTH}"
+        height="{CARD_HEIGHT}"
+        viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}"
+        role="img"
+        aria-labelledby="title description"
+    >
+
+        <title id="title">
+            Estatísticas GitHub de Matheus Viana
+        </title>
+
+        <desc id="description">
+            Estatísticas do perfil e tecnologias utilizadas
+            nos projetos em que Matheus Viana contribui.
+        </desc>
+
+        <style>
+            .background {{
+                fill: #1a1b27;
+                stroke: #30363d;
+                stroke-width: 1;
+            }}
+
+            .title {{
+                fill: #70a5fd;
+                font-family:
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+            }}
+
+            .subtitle {{
+                fill: #8b949e;
+                font-family:
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                font-size: 12px;
+            }}
+
+            .stat-box {{
+                fill: #161b22;
+                stroke: #30363d;
+                stroke-width: 1;
+            }}
+
+            .stat-label {{
+                fill: #8b949e;
+                font-family:
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                font-size: 12px;
+                font-weight: 500;
+            }}
+
+            .stat-value {{
+                fill: #00e6c3;
+                font-family:
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+            }}
+
+            .section-title {{
+                fill: #70a5fd;
+                font-family:
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+            }}
+
+            .language {{
+                fill: #c9d1d9;
+                font-family:
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                font-size: 12px;
+            }}
+
+            .footer {{
+                fill: #8b949e;
+                font-family:
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                font-size: 10px;
+            }}
+
+            .divider {{
+                stroke: #30363d;
+                stroke-width: 1;
+            }}
+        </style>
+
+        <rect
+            x="0.5"
+            y="0.5"
+            width="{CARD_WIDTH - 1}"
+            height="{CARD_HEIGHT - 1}"
+            rx="10"
+            class="background"
+        />
+
+        <text
+            x="28"
+            y="34"
+            class="title"
+        >
+            GitHub • Matheus Viana
+        </text>
+
+        <text
+            x="28"
+            y="55"
+            class="subtitle"
+        >
+            Perfil pessoal + projetos
+        </text>
+
+        {''.join(stat_parts)}
+
+        <line
+            x1="28"
+            y1="170"
+            x2="{CARD_WIDTH - 28}"
+            y2="170"
+            class="divider"
+        />
+
+        <text
+            x="28"
+            y="197"
+            class="section-title"
+        >
+            Tecnologias nos projetos em que contribuo
+        </text>
+
+        {''.join(bar_parts)}
+
+        {''.join(legend_parts)}
+
+        <text
+            x="28"
+            y="322"
+            class="footer"
+        >
+            {escape(footer)}
+        </text>
+
+    </svg>
