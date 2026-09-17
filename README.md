@@ -91,16 +91,9 @@ Estou em constante evolução, atualmente aprofundando meus conhecimentos em des
 
 <p align="center">
     <img
-        alt="Estatísticas do GitHub"
-        height="49%"
-        width="49%"
-        src="./profile/stats.svg"
-    />
-    <img
-        alt="Tecnologias"
-        height="49%"
-        width="49%"
-        src="./profile/top-langs.svg"
+        alt="Estatísticas GitHub de Matheus Viana"
+        width="100%"
+        src="./profile/github-stats.svg"
     />
 </p>
 
