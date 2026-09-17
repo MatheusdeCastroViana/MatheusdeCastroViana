@@ -62,6 +62,7 @@ FALLBACK_COLORS = [
 ]
 
 def rest_get(token, path):
+
     request = urllib.request.Request(
         f"{REST_API}{path}",
         headers={
@@ -97,9 +98,6 @@ def rest_get(token, path):
 
 
 def graphql_request(query, variables):
-    """
-    Executa uma consulta GraphQL utilizando o STATS_TOKEN.
-    """
 
     payload = json.dumps(
         {
@@ -183,6 +181,7 @@ def get_contribution_years():
 
 
 def get_year_contributions(year):
+
     start = datetime(
         year,
         1,
@@ -256,9 +255,6 @@ def get_year_contributions(year):
 
 
 def get_all_time_contributions():
-    """
-    Soma os anos de contribuição do perfil.
-    """
 
     totals = {
         "commits": 0,
@@ -280,8 +276,9 @@ def get_all_time_contributions():
             totals[key] += year_data[key]
 
     return totals
-
+    
 def get_personal_repositories():
+
     repositories = []
 
     page = 1
@@ -316,7 +313,6 @@ def get_personal_repositories():
             if repo.get("fork"):
                 continue
 
-            # Exclui o próprio repositório de perfil.
             if (
                 repo.get("name", "").lower()
                 == USERNAME.lower()
@@ -333,13 +329,6 @@ def get_personal_repositories():
     return repositories
 
 def get_organization_repositories():
-    """
-    Lista todos os repositórios que ORG_STATS_TOKEN
-    consegue visualizar na Organization.
-
-    Nenhum nome de repositório é exibido no log.
-    """
-
     repositories = []
 
     page = 1
@@ -396,6 +385,7 @@ def get_organization_repositories():
 
 
 def get_user_contributions_in_repository(repo):
+
     owner = urllib.parse.quote(
         repo["owner"]["login"],
         safe="",
@@ -443,11 +433,6 @@ def get_user_contributions_in_repository(repo):
         page += 1
 
 def get_repository_languages(repo, token):
-    """
-    Consulta os bytes de cada linguagem identificados
-    pelo GitHub Linguist.
-    """
-
     owner = urllib.parse.quote(
         repo["owner"]["login"],
         safe="",
@@ -556,13 +541,6 @@ def language_color(language, index):
 
 
 def prepare_languages(language_totals):
-    """
-    Exibe no máximo oito itens.
-
-    Caso existam mais de oito linguagens:
-    sete são exibidas individualmente e as demais
-    são agrupadas como 'Outros'.
-    """
 
     total_bytes = sum(
         language_totals.values()
@@ -691,7 +669,7 @@ def generate_svg(
         )
 
         stat_parts.append(
-          """
+            f"""
             <rect
                 x="{x}"
                 y="{stat_y}"
@@ -743,7 +721,7 @@ def generate_svg(
             )
 
         bar_parts.append(
-            """
+            f"""
             <rect
                 x="{current_x:.2f}"
                 y="{bar_y}"
@@ -755,7 +733,7 @@ def generate_svg(
         )
 
         current_x += segment_width
-      
+
     legend_parts = []
 
     column_width = 212
@@ -781,7 +759,7 @@ def generate_svg(
         )
 
         legend_parts.append(
-            """
+            f"""
             <circle
                 cx="{x + 5}"
                 cy="{y - 4}"
@@ -822,7 +800,7 @@ def generate_svg(
         f" • atualizado em {today}"
     )
 
-    svg = """<svg
+    svg = f"""<svg
         xmlns="http://www.w3.org/2000/svg"
         width="{CARD_WIDTH}"
         height="{CARD_HEIGHT}"
@@ -969,7 +947,7 @@ def generate_svg(
             y="55"
             class="subtitle"
         >
-            Perfil pessoal + projetos
+            Perfil pessoal + projetos autorizados da Kiss Beauty Group Brasil
         </text>
 
         {''.join(stat_parts)}
