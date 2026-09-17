@@ -947,7 +947,7 @@ def generate_svg(
             y="55"
             class="subtitle"
         >
-            Perfil pessoal + projetos autorizados da Kiss Beauty Group Brasil
+            Perfil pessoal + Projetos Profissionais
         </text>
 
         {''.join(stat_parts)}
