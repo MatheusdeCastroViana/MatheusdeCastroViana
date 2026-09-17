@@ -92,12 +92,14 @@ Estou em constante evolução, atualmente aprofundando meus conhecimentos em des
 <p align="center">
     <img
         alt="Estatísticas do GitHub"
+        height="49%"
         width="49%"
         src="./profile/stats.svg"
     />
     <img
         alt="Tecnologias"
-        width="44%"
+        height="49%"
+        width="49%"
         src="./profile/top-langs.svg"
     />
 </p>
