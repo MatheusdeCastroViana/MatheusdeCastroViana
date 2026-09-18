@@ -215,6 +215,9 @@ def get_year_contributions(year):
           from: $from,
           to: $to
         ) {
+          contributionCalendar {
+            totalContributions
+          }
           totalCommitContributions
           totalPullRequestContributions
           totalIssueContributions
@@ -239,15 +242,22 @@ def get_year_contributions(year):
     )
 
     return {
+        "contributions": collection[
+            "contributionCalendar"
+        ]["totalContributions"],
+
         "commits": collection[
             "totalCommitContributions"
         ],
+
         "pull_requests": collection[
             "totalPullRequestContributions"
         ],
+
         "issues": collection[
             "totalIssueContributions"
         ],
+
         "reviews": collection[
             "totalPullRequestReviewContributions"
         ],
@@ -257,6 +267,7 @@ def get_year_contributions(year):
 def get_all_time_contributions():
 
     totals = {
+        "contributions": 0,
         "commits": 0,
         "pull_requests": 0,
         "issues": 0,
@@ -614,10 +625,6 @@ def generate_svg(
     contribution_totals,
     technology_data,
 ):
-    """
-    Gera um único card SVG contendo estatísticas e
-    tecnologias.
-    """
 
     languages = prepare_languages(
         technology_data["languages"]
@@ -632,6 +639,10 @@ def generate_svg(
 
     stats = [
         (
+            "Contribuições",
+            contribution_totals["contributions"],
+        ),
+        (
             "Commits",
             contribution_totals["commits"],
         ),
@@ -644,10 +655,6 @@ def generate_svg(
         (
             "Issues",
             contribution_totals["issues"],
-        ),
-        (
-            "Reviews",
-            contribution_totals["reviews"],
         ),
         (
             "Estrelas",
@@ -794,9 +801,6 @@ def generate_svg(
     )
 
     footer = (
-        f"{projects_analyzed} projetos analisados"
-        f" • {org_projects} da organização"
-        f" • {org_contributions} contribuições detectadas"
         f" • atualizado em {today}"
     )
 
