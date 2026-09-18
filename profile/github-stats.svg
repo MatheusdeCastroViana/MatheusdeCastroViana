@@ -295,63 +295,63 @@
             <rect
                 x="28.00"
                 y="211"
-                width="289.13"
+                width="287.77"
                 height="12"
                 fill="#e34c26"
             />
             
             <rect
-                x="317.13"
+                x="315.77"
                 y="211"
-                width="260.16"
+                width="261.49"
                 height="12"
                 fill="#178600"
             />
             
             <rect
-                x="577.29"
+                x="577.26"
                 y="211"
-                width="89.40"
+                width="88.78"
                 height="12"
                 fill="#3572A5"
             />
             
             <rect
-                x="666.69"
+                x="666.03"
                 y="211"
-                width="86.89"
+                width="86.96"
                 height="12"
                 fill="#f1e05a"
             />
             
             <rect
-                x="753.58"
+                x="753.00"
                 y="211"
-                width="60.95"
+                width="60.53"
                 height="12"
                 fill="#ff7b72"
             />
             
             <rect
-                x="814.54"
+                x="813.52"
                 y="211"
-                width="32.94"
+                width="33.36"
                 height="12"
                 fill="#563d7c"
             />
             
             <rect
-                x="847.48"
+                x="846.89"
                 y="211"
-                width="22.63"
+                width="22.47"
                 height="12"
                 fill="#c6538c"
             />
             
             <rect
-                x="870.10"
+                x="869.36"
                 y="211"
-                width="1.90"
+                width="2.64"
                 height="12"
                 fill="#64748b"
             />
@@ -370,7 +370,7 @@
                 y="257"
                 class="language"
             >
-                HTML 34.3%
+                HTML 34.1%
             </text>
             
             <circle
@@ -385,7 +385,7 @@
                 y="257"
                 class="language"
             >
-                C# 30.8%
+                C# 31.0%
             </text>
             
             <circle
@@ -400,7 +400,7 @@
                 y="257"
                 class="language"
             >
-                Python 10.6%
+                Python 10.5%
             </text>
             
             <circle
@@ -445,7 +445,7 @@
                 y="282"
                 class="language"
             >
-                CSS 3.9%
+                CSS 4.0%
             </text>
             
             <circle
@@ -475,7 +475,7 @@
                 y="282"
                 class="language"
             >
-                Outros 0.2%
+                Outros 0.3%
             </text>
             
 
@@ -484,7 +484,7 @@
             y="322"
             class="footer"
         >
-            12 projetos analisados • 4 da organização • 97 contribuições detectadas • atualizado em 17/09/2026
+            12 projetos analisados • 4 da organização • 100 contribuições detectadas • atualizado em 18/09/2026
         </text>
 
     </svg>
