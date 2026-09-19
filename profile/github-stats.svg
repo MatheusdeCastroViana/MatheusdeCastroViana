@@ -171,7 +171,7 @@
                 y="131"
                 class="stat-value"
             >
-                194
+                248
             </text>
             
             <rect
@@ -196,7 +196,7 @@
                 y="131"
                 class="stat-value"
             >
-                79
+                80
             </text>
             
             <rect
@@ -295,45 +295,45 @@
             <rect
                 x="28.00"
                 y="211"
-                width="287.77"
+                width="287.71"
                 height="12"
                 fill="#e34c26"
             />
             
             <rect
-                x="315.77"
+                x="315.71"
                 y="211"
-                width="261.49"
+                width="261.42"
                 height="12"
                 fill="#178600"
             />
             
             <rect
-                x="577.26"
+                x="577.13"
                 y="211"
-                width="88.78"
+                width="88.96"
                 height="12"
                 fill="#3572A5"
             />
             
             <rect
-                x="666.03"
+                x="666.09"
                 y="211"
-                width="86.96"
+                width="86.94"
                 height="12"
                 fill="#f1e05a"
             />
             
             <rect
-                x="753.00"
+                x="753.03"
                 y="211"
-                width="60.53"
+                width="60.51"
                 height="12"
                 fill="#ff7b72"
             />
             
             <rect
-                x="813.52"
+                x="813.54"
                 y="211"
                 width="33.36"
                 height="12"
@@ -341,9 +341,9 @@
             />
             
             <rect
-                x="846.89"
+                x="846.90"
                 y="211"
-                width="22.47"
+                width="22.46"
                 height="12"
                 fill="#c6538c"
             />
@@ -484,7 +484,7 @@
             y="322"
             class="footer"
         >
-             • atualizado em 18/09/2026
+             • atualizado em 19/09/2026
         </text>
 
     </svg>
