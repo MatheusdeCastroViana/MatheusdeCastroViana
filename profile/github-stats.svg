@@ -171,7 +171,7 @@
                 y="131"
                 class="stat-value"
             >
-                259
+                262
             </text>
             
             <rect
@@ -295,55 +295,55 @@
             <rect
                 x="28.00"
                 y="211"
-                width="286.80"
+                width="286.39"
                 height="12"
                 fill="#e34c26"
             />
             
             <rect
-                x="314.80"
+                x="314.39"
                 y="211"
-                width="258.50"
+                width="258.13"
                 height="12"
                 fill="#178600"
             />
             
             <rect
-                x="573.30"
+                x="572.52"
                 y="211"
-                width="91.06"
+                width="92.14"
                 height="12"
                 fill="#3572A5"
             />
             
             <rect
-                x="664.36"
+                x="664.66"
                 y="211"
-                width="86.30"
+                width="86.18"
                 height="12"
                 fill="#f1e05a"
             />
             
             <rect
-                x="750.66"
+                x="750.83"
                 y="211"
-                width="59.83"
+                width="59.75"
                 height="12"
                 fill="#ff7b72"
             />
             
             <rect
-                x="810.49"
+                x="810.58"
                 y="211"
-                width="36.68"
+                width="36.63"
                 height="12"
                 fill="#563d7c"
             />
             
             <rect
-                x="847.18"
+                x="847.21"
                 y="211"
-                width="22.21"
+                width="22.18"
                 height="12"
                 fill="#c6538c"
             />
@@ -370,7 +370,7 @@
                 y="257"
                 class="language"
             >
-                HTML 34.0%
+                HTML 33.9%
             </text>
             
             <circle
@@ -400,7 +400,7 @@
                 y="257"
                 class="language"
             >
-                Python 10.8%
+                Python 10.9%
             </text>
             
             <circle
@@ -484,7 +484,7 @@
             y="322"
             class="footer"
         >
-             • atualizado em 21/09/2026
+             • atualizado em 22/09/2026
         </text>
 
     </svg>
