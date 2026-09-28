@@ -171,7 +171,7 @@
                 y="131"
                 class="stat-value"
             >
-                287
+                292
             </text>
             
             <rect
@@ -196,7 +196,7 @@
                 y="131"
                 class="stat-value"
             >
-                83
+                86
             </text>
             
             <rect
@@ -221,7 +221,7 @@
                 y="131"
                 class="stat-value"
             >
-                7
+                9
             </text>
             
             <rect
@@ -309,9 +309,9 @@
             />
             
             <rect
-                x="563.48"
+                x="563.49"
                 y="211"
-                width="104.62"
+                width="104.61"
                 height="12"
                 fill="#3572A5"
             />
@@ -484,7 +484,7 @@
             y="322"
             class="footer"
         >
-             • atualizado em 27/09/2026
+             • atualizado em 28/09/2026
         </text>
 
     </svg>
