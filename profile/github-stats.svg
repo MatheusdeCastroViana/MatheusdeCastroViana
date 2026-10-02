@@ -171,7 +171,7 @@
                 y="131"
                 class="stat-value"
             >
-                296
+                303
             </text>
             
             <rect
@@ -246,7 +246,7 @@
                 y="131"
                 class="stat-value"
             >
-                35
+                36
             </text>
             
             <rect
@@ -295,63 +295,63 @@
             <rect
                 x="28.00"
                 y="211"
-                width="281.73"
+                width="283.19"
                 height="12"
                 fill="#e34c26"
             />
             
             <rect
-                x="309.73"
+                x="311.19"
                 y="211"
-                width="253.80"
+                width="250.30"
                 height="12"
                 fill="#178600"
             />
             
             <rect
-                x="563.54"
+                x="561.49"
                 y="211"
-                width="104.59"
+                width="104.15"
                 height="12"
                 fill="#3572A5"
             />
             
             <rect
-                x="668.13"
+                x="665.63"
                 y="211"
-                width="84.73"
+                width="84.13"
                 height="12"
                 fill="#f1e05a"
             />
             
             <rect
-                x="752.86"
+                x="749.76"
                 y="211"
-                width="58.75"
+                width="57.94"
                 height="12"
                 fill="#ff7b72"
             />
             
             <rect
-                x="811.61"
+                x="807.70"
                 y="211"
-                width="36.02"
+                width="40.27"
                 height="12"
                 fill="#563d7c"
             />
             
             <rect
-                x="847.63"
+                x="847.96"
                 y="211"
-                width="21.81"
+                width="21.51"
                 height="12"
                 fill="#c6538c"
             />
             
             <rect
-                x="869.44"
+                x="869.47"
                 y="211"
-                width="2.56"
+                width="2.53"
                 height="12"
                 fill="#64748b"
             />
@@ -370,7 +370,7 @@
                 y="257"
                 class="language"
             >
-                HTML 33.4%
+                HTML 33.6%
             </text>
             
             <circle
@@ -385,7 +385,7 @@
                 y="257"
                 class="language"
             >
-                C# 30.1%
+                C# 29.7%
             </text>
             
             <circle
@@ -400,7 +400,7 @@
                 y="257"
                 class="language"
             >
-                Python 12.4%
+                Python 12.3%
             </text>
             
             <circle
@@ -430,7 +430,7 @@
                 y="282"
                 class="language"
             >
-                TeX 7.0%
+                TeX 6.9%
             </text>
             
             <circle
@@ -445,7 +445,7 @@
                 y="282"
                 class="language"
             >
-                CSS 4.3%
+                CSS 4.8%
             </text>
             
             <circle
@@ -460,7 +460,7 @@
                 y="282"
                 class="language"
             >
-                SCSS 2.6%
+                SCSS 2.5%
             </text>
             
             <circle
@@ -484,7 +484,7 @@
             y="322"
             class="footer"
         >
-             • atualizado em 01/10/2026
+             • atualizado em 02/10/2026
         </text>
 
     </svg>
