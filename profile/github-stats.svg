@@ -171,7 +171,7 @@
                 y="131"
                 class="stat-value"
             >
-                310
+                314
             </text>
             
             <rect
@@ -221,7 +221,7 @@
                 y="131"
                 class="stat-value"
             >
-                9
+                10
             </text>
             
             <rect
@@ -246,7 +246,7 @@
                 y="131"
                 class="stat-value"
             >
-                36
+                37
             </text>
             
             <rect
@@ -295,63 +295,63 @@
             <rect
                 x="28.00"
                 y="211"
-                width="281.23"
+                width="275.94"
                 height="12"
                 fill="#e34c26"
             />
             
             <rect
-                x="309.23"
+                x="303.94"
                 y="211"
-                width="246.92"
+                width="242.27"
                 height="12"
                 fill="#178600"
             />
             
             <rect
-                x="556.15"
+                x="546.21"
                 y="211"
-                width="102.24"
+                width="100.32"
                 height="12"
                 fill="#3572A5"
             />
             
             <rect
-                x="658.39"
+                x="646.53"
                 y="211"
-                width="90.61"
+                width="89.16"
                 height="12"
                 fill="#f1e05a"
             />
             
             <rect
-                x="749.00"
+                x="735.70"
                 y="211"
-                width="56.88"
+                width="55.81"
                 height="12"
                 fill="#ff7b72"
             />
             
             <rect
-                x="805.88"
+                x="791.50"
                 y="211"
-                width="42.03"
+                width="41.24"
                 height="12"
                 fill="#563d7c"
             />
             
             <rect
-                x="847.91"
+                x="832.74"
                 y="211"
-                width="21.11"
+                width="23.79"
                 height="12"
                 fill="#c6538c"
             />
             
             <rect
-                x="869.03"
+                x="856.53"
                 y="211"
-                width="2.97"
+                width="15.47"
                 height="12"
                 fill="#64748b"
             />
@@ -370,7 +370,7 @@
                 y="257"
                 class="language"
             >
-                HTML 33.3%
+                HTML 32.7%
             </text>
             
             <circle
@@ -385,7 +385,7 @@
                 y="257"
                 class="language"
             >
-                C# 29.3%
+                C# 28.7%
             </text>
             
             <circle
@@ -400,7 +400,7 @@
                 y="257"
                 class="language"
             >
-                Python 12.1%
+                Python 11.9%
             </text>
             
             <circle
@@ -415,7 +415,7 @@
                 y="257"
                 class="language"
             >
-                JavaScript 10.7%
+                JavaScript 10.6%
             </text>
             
             <circle
@@ -430,7 +430,7 @@
                 y="282"
                 class="language"
             >
-                TeX 6.7%
+                TeX 6.6%
             </text>
             
             <circle
@@ -445,7 +445,7 @@
                 y="282"
                 class="language"
             >
-                CSS 5.0%
+                CSS 4.9%
             </text>
             
             <circle
@@ -460,7 +460,7 @@
                 y="282"
                 class="language"
             >
-                SCSS 2.5%
+                SCSS 2.8%
             </text>
             
             <circle
@@ -475,7 +475,7 @@
                 y="282"
                 class="language"
             >
-                Outros 0.4%
+                Outros 1.8%
             </text>
             
 
@@ -484,7 +484,7 @@
             y="322"
             class="footer"
         >
-             • atualizado em 13/10/2026
+             • atualizado em 14/10/2026
         </text>
 
     </svg>
