@@ -5,9 +5,9 @@
 
 Me chamo Matheus Viana, tenho 22 anos e sou apaixonado por tecnologia e inovação. Possuo formação técnica em Informática (Etec Itaquaquecetuba). Atualmente, estou no 7º semestre de Engenharia de Software na Universidade Mogi das Cruzes (UMC), com previsão de formatura no próximo semestre.
 
-Profissionalmente, atuo como Assistente de TI na Kiss Beauty Group Brasil, onde contribuo com inovação, desenvolvimento de novos projetos, infraestrutura e sistemas.
+Profissionalmente, atuo como Assistente de TI na Kiss Beauty Group Brasil, onde contribuo com inovação, desenvolvimento de novos projetos, SAP, infraestrutura e sistemas.
 
-Estou em constante evolução, atualmente aprofundando meus conhecimentos em desenvolvimento **C#** e estudando para a certificação **AWS Cloud Practitioner**, com o objetivo de consolidar minha carreira na área de tecnologia e fortalecer minha presença digital.
+Estou em constante evolução, atualmente aprofundando meus conhecimentos em desenvolvimento em **SAP** e **C#** e estudando para a certificação **AWS Cloud Practitioner**, com o objetivo de consolidar minha carreira na área de tecnologia e fortalecer minha presença digital.
 
 <p align="left">
     <a href="https://www.linkedin.com/in/matheusviana1" target="_blank">
@@ -44,6 +44,14 @@ Estou em constante evolução, atualmente aprofundando meus conhecimentos em des
 
 ### 🤖 Linguagens e Tecnologias
 
+<img
+    align="left"
+    alt="SAP"
+    title="SAP ERP"
+    width="48px"
+    style="padding-right: 10px;"
+    src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg"
+/>
 <img
     align="left"
     alt="C#"
